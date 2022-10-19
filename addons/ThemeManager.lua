@@ -6,7 +6,7 @@ local ThemeManager = {} do
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
 		['Exorcism']			= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"151515","AccentColor":"aaffff","BackgroundColor":"151515","OutlineColor":"323232"}') },
-		['Yzir']			= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"151515","AccentColor":"aaffff","BackgroundColor":"151515","OutlineColor":"323232"}') },
+		['Yzir']			= { 2, httpService:JSONDecode('{"FontColor":"c0c0c0","MainColor":"151515","AccentColor":"999999","BackgroundColor":"1b1b1b","OutlineColor":"323232"}') },
 		['Cat']				= { 4, httpService:JSONDecode('{"FontColor":"B78706","MainColor":"151515","AccentColor":"000000","BackgroundColor":"151515","OutlineColor":"323232"}') },
 		['Req'] 			= { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232533","AccentColor":"6271a5","BackgroundColor":"1b1c27","OutlineColor":"7c82a7"}') },
 	}
