@@ -2890,7 +2890,7 @@ function Library:CreateWindow(...)
 
     function Library.Toggle()
         Outer.Visible = not Outer.Visible;
-        ModalElement.Modal = Outer.Visible;
+        ModalElement.Modal = false;
 
         local oIcon = Mouse.Icon;
         local State = InputService.MouseIconEnabled;
